@@ -7,6 +7,7 @@
     "test": "jest --watch"
   },
   "dependencies": {
+    "antd": "^4.21.7",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
