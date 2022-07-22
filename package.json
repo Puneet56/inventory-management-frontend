@@ -7,7 +7,10 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "antd": "^4.21.7",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"

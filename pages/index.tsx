@@ -1,14 +1,12 @@
 import type { NextPage } from "next";
-import { Card } from "antd";
+import { Box } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300 }}>
-				<p>Card content</p>
-				<p>Card content</p>
-				<p>Card content</p>
-			</Card>
+			<Box bg="tomato" w="100%" p={4} color="white">
+				This is the Box
+			</Box>
 		</div>
 	);
 };
